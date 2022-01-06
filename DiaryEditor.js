@@ -6,7 +6,8 @@ const DiaryEditor = () => {
         content: '',
         emotion: 1,
     });
-
+    // Notion : 상태값은 객체로 관리. 객체 안에 빈 input,textarea
+    // 그리고 emotion1 을 키로 넣어준다
     const handleChangeState = (e) => {
         setState({
             ...state,
@@ -30,7 +31,7 @@ const DiaryEditor = () => {
                     //         ...state,
                     //         author: e.target.value,
                     //     });
-                    // 주의 : 원래 있던 state들을 먼저 펼쳐주고 나서 내가 변경하고자 하는 state의 property를 마지막에 적어줘라
+                    // Caution : 원래 있던 state들을 먼저 펼쳐주고 나서 내가 변경하고자 하는 state의 property를 마지막에 적어줘라
                 />
             </div>
             <div>
