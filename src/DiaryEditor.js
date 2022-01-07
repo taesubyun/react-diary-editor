@@ -17,10 +17,12 @@ const DiaryEditor = () => {
         });
     };
     const handleSubmit = () => {
+        //focus
         if (state.author.length < 1) {
             authorInput.current.focus();
             return;
         }
+        //focus
         if (state.content.length < 5) {
             contentInput.current.focus();
             return;
