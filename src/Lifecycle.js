@@ -57,7 +57,7 @@ const UnmountTest = () => {
         };
     }, []);
 
-    return <div>UNMOUNT 테스트 컴포넌트 </div>;
+    return <div className='Unmounttest'> 알림 : UNMOUNT 컴포넌트 테스트 </div>;
 };
 
 const LifeCycle = () => {
@@ -66,7 +66,9 @@ const LifeCycle = () => {
 
     return (
         <div style={{ padding: 20 }}>
-            <button onClick={toggle}>ON/OFF</button>
+            <button className='UnmountBtn' onClick={toggle}>
+                ON/OFF
+            </button>
             {isVisible && <UnmountTest />}
         </div>
     );
