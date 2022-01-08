@@ -1,5 +1,6 @@
 .DiaryEditor {
     border: 1px solid grey;
+    border-radius: 15px;
     text-align: center;
     padding: 20px;
 }
@@ -9,29 +10,40 @@ textarea {
     margin-bottom: 20px;
     width: 500px;
     padding: 10px;
+    outline: none;
+    border-radius: 10px;
 }
 
 .DiaryEditor textarea {
     height: 150px;
+    outline: none;
+    border-radius: 10px;
 }
 
 .DiaryEditor select {
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
+    outline: none;
+    border-radius: 6px;
 }
 
 .DiaryEditor button {
     width: 500px;
     padding: 10px;
     cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
 }
+
 /* list */
 
 .DiaryList {
     border: 1px solid grey;
-    padding: 200px;
-    margin-top: 20px;
+    border-radius: 15px;
+    padding: 100px;
+    margin-top: 9px;
 }
 
 .DiaryList h2 {
