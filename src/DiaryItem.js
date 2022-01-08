@@ -66,8 +66,33 @@ const DiaryItem = ({
                 </>
             ) : (
                 <>
-                    <button onClick={handleClickRemove}>삭제하기</button>
-                    <button onClick={toggleIsEdit}>수정하기</button>
+                    <button
+                        style={{
+                            background: '#FB3569',
+                            border: 'none',
+                            outline: 'none',
+                            height: '30px',
+                            borderRadius: '7px',
+                            color: 'white',
+                        }}
+                        onClick={handleClickRemove}
+                    >
+                        삭제하기
+                    </button>
+                    <button
+                        style={{
+                            marginLeft: '3px',
+                            background: '#2F89FC',
+                            border: 'none',
+                            outline: 'none',
+                            height: '30px',
+                            borderRadius: '7px',
+                            color: 'white',
+                        }}
+                        onClick={toggleIsEdit}
+                    >
+                        수정하기
+                    </button>
                 </>
             )}
         </div>

@@ -13,6 +13,7 @@
 .DiaryEditor h2 {
     font-size: 30px;
     font-weight: bold;
+    color: #23120b;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -74,7 +75,7 @@ textarea {
 .DiaryList h4 {
     width: 170px;
     height: 28px;
-    background: #146cf8;
+    background: #ff5d5d;
     color: white;
     font-weight: normal;
     border-radius: 10px;
@@ -116,8 +117,8 @@ textarea {
 .UnmountBtn {
     width: 90px;
     height: 34px;
-    border: 1px solid rgb(204, 25, 64);
+    border: 1px solid rgb(34, 32, 32);
     color: white;
-    background-color: rgb(204, 25, 64);
+    background-color: rgb(34, 32, 32);
     border-radius: 20px;
 }
