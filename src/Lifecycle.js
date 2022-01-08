@@ -65,7 +65,7 @@ const LifeCycle = () => {
     const toggle = () => setIsVisible(!isVisible);
 
     return (
-        <div style={{ padding: 20 }}>
+        <div style={{ padding: 12 }}>
             <button className='UnmountBtn' onClick={toggle}>
                 ON/OFF
             </button>
