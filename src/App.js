@@ -6,9 +6,8 @@ import Lifecycle from './Lifecycle';
 
 const App = () => {
     const [data, setData] = useState([]);
-
     const dataId = useRef(0);
-
+    // API 호출하여 초기 일기 데이터 설정
     const getData = async () => {
         const res = await fetch(
             'https://jsonplaceholder.typicode.com/comments'

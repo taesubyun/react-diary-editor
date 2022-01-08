@@ -39,7 +39,7 @@ const DiaryEditor = ({ onCreate }) => {
 
     return (
         <div className='DiaryEditor'>
-            <h2>오늘의 일기</h2>
+            <h2>TODAY'S DIARY</h2>
             <div>
                 <input
                     ref={authorInput}
@@ -61,7 +61,7 @@ const DiaryEditor = ({ onCreate }) => {
                 />
             </div>
             <div>
-                <span>오늘의 감정점수 : </span>
+                <span style={{ color: 'grey' }}>감정 점수 : </span>
                 <select
                     name='emotion'
                     value={state.emotion}

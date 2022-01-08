@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&family=Do+Hyeon&family=Gothic+A1:wght@800&family=Gowun+Batang&family=Lobster&family=Nanum+Brush+Script&family=Oswald:wght@600&display=swap');
+
 /* Editor */
 
 .DiaryEditor {
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .DiaryEditor h2 {
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
 }
 
 .DiaryEditor input,
@@ -31,16 +35,23 @@ textarea {
 
 .DiaryEditor select {
     width: 300px;
+    height: 37px;
     padding: 10px;
     margin-bottom: 20px;
     outline: none;
     border-radius: 6px;
+    color: grey;
     border: 1px solid grey;
 }
 
 .DiaryEditor button {
     width: 500px;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 14px;
+    background-color: #0040ff;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
     cursor: pointer;
     border: none;
     outline: none;
@@ -50,20 +61,30 @@ textarea {
 /* list */
 
 .DiaryList {
-    border: 1px solid grey;
     border-radius: 15px;
-    padding: 30px;
+    padding: 15px;
     margin-top: 20px;
 }
 
 .DiaryList h2 {
-    text-align: center;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
 }
 
+.DiaryList h4 {
+    width: 170px;
+    height: 28px;
+    background: #146cf8;
+    color: white;
+    font-weight: normal;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+}
 /* Item */
 
 .DiaryItem {
-    background-color: #7dabf0;
+    background-color: #dfdfdf;
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 20px;
@@ -93,7 +114,10 @@ textarea {
 }
 
 .UnmountBtn {
+    width: 90px;
+    height: 34px;
     border: 1px solid rgb(204, 25, 64);
     color: white;
     background-color: rgb(204, 25, 64);
+    border-radius: 20px;
 }
