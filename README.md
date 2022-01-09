@@ -1,5 +1,8 @@
-## Diary Editor
-
+### Diary Editor
 ---
+__해당 | repo | 는 Hooks(useState, useRef), Props에 대한 기록__
+- useState
+- useRef
+- props
+- async
 
-### 프로젝트 : 일기장 만들기
