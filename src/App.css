@@ -3,7 +3,7 @@
 /* Editor */
 
 .DiaryEditor {
-    border: 2px solid grey;
+    border: 2px solid #ececec;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
@@ -49,7 +49,7 @@ textarea {
     width: 500px;
     /* padding: 10px; */
     padding: 14px;
-    background-color: #0040ff;
+    background-color: #185adb;
     color: white;
     font-size: 17px;
     font-weight: bold;
@@ -75,7 +75,7 @@ textarea {
 .DiaryList h4 {
     width: 170px;
     height: 28px;
-    background: #ff5d5d;
+    background: #ec255a;
     color: white;
     font-weight: normal;
     border-radius: 10px;
